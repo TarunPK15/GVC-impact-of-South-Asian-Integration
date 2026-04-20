@@ -1,0 +1,38 @@
+# --- Python Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Environments ---
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- Distribution / Packaging ---
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Environment Variables (Secrets!) ---
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.tox/
+.coverage
+.cache
+htmlcov/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
