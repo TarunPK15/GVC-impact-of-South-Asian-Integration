@@ -1,38 +1,116 @@
-# --- Python Core ---
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
 
-# --- Environments ---
-.venv/
-venv/
-env/
-ENV/
-bin/
-lib/
-include/
-
-# --- Distribution / Packaging ---
-dist/
+# Distribution / packaging
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# --- Environment Variables (Secrets!) ---
-.env
-.venv
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# --- Testing / Coverage ---
-.pytest_cache/
-.tox/
-.coverage
-.cache
+# Unit test / coverage reports
 htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
 
-# --- OS Specific ---
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS / Windows
 .DS_Store
 Thumbs.db
+
+# -------------------------------------------------------------------
+# LaTeX build artifacts and components (inside Latex folder and others)
+# -------------------------------------------------------------------
+# Common LaTeX temporary and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.bcf
+*.cb
+*.cb2
+*.fdb_latexmk
+*.fls
+*.fmt
+*.gz
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lol
+*.lot
+*.nav
+*.out
+*.pdf
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# If you want to completely ignore the entire Latex directory instead 
+# of just its build artifacts, you can uncomment the following line:
+# Latex/
+
+# Document files
+*.docx
+
+# Data and outputs
+data/
+outputs/
