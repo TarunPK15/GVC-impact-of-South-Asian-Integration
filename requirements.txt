@@ -1,0 +1,12 @@
+# Core
+numpy>=1.24
+pandas>=2.2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+openpyxl>=3.1
+
+# Optional but strongly recommended — 5-10x faster Excel reading (Rust-based)
+# Install with: pip install python-calamine
+# Or run: python run_all.py --install-calamine
+python-calamine>=0.1.0
